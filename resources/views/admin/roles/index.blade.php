@@ -30,7 +30,7 @@
                                                 <div class="flex justify-end">
                                                     <div class="flex space-x-2">
                                                         <a href="{{ route('admin.roles.edit', $role) }}" class="px-4 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded-md">Edit</a>
-                                                        <button class="openModal block px-4 py-2 bg-red-500 hover:bg-red-700 text-white rounded-md">Delete</button>
+                                                        <button class="openModal px-4 py-2 bg-red-500 hover:bg-red-700 text-white rounded-md">Delete</button>
                                                     </div>
                                                 </div>
                                             </td>
