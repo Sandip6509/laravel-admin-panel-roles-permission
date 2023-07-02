@@ -5,9 +5,6 @@
                 <div class="mt-6 p-2">
                     <h2 class="text-2xl font-semibold">Role Edit</h2>
                 </div>
-                <!-- <div class="flex justify-end p-2">
-                    <a href="{{ route('admin.roles.index') }}" class="px-4 py-2 bg-green-700 hover:bg-green-500 rounded-md">Role Index</a>
-                </div> -->
                 <div class="flex flex-col p-2">
                     <div class="space-y-8 divide-y divide-gray-200 w-full mt-100">
                         <form method="POST" action="{{ route('admin.roles.update',$role) }}">
@@ -76,7 +73,7 @@
                         @endforeach
                         @endif
                     </div>
-                    <div class="max-w-xl mt-6">
+                    <div class="w-full mt-6">
                         <form method="POST" action="{{ route('admin.roles.permissions',$role) }}">
                             @csrf
                             <div class="sm:col-span-6">
